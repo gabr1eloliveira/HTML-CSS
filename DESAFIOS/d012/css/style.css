@@ -55,17 +55,9 @@ section{
     font-size: 1.7rem
 }
 
-@media screen and (max-width: 1000px){
-    section{
-        font-size: 1.5rem; 
-        line-height: 3rem;
-    }
-
-    header h1{
-        font-size: 4rem;  
-    }
+section p{
+    padding-bottom: 2rem;
 }
-
 
 .normal{
     background-color: white;
@@ -81,6 +73,26 @@ section{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.534);
+}
+
+#img01{
+    background-image: url("../imagens/background001.jpg");
+    back
+}
+
+#img02{
+    background-image: url("../imagens/background002.jpg");
+}
+
+@media screen and (max-width: 1000px){
+    section{
+        font-size: 1.4rem; 
+        line-height: 3rem;
+    }
+
+    header h1{
+        font-size: 4rem;  
+    }
 }
 
 footer{
