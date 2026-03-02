@@ -52,7 +52,7 @@ section{
     line-height: 4rem;
     padding-left: 50px;
     font-family: var(--fonte-variada);
-    font-size: 1.7rem
+    font-size: 1.7rem;
 }
 
 section p{
@@ -67,21 +67,29 @@ section p{
 .imagem{
     background-color: rgba(0, 0, 0, 0.411);
     color: white;
+    box-shadow: inset 1px 1px 12px 8px rgba(0, 0, 0, 0.493);
 }
 
 .imagem p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.534);
+    text-shadow: 0px 0px 12px 2px rgba(0,0,0,0.1);
 }
 
 #img01{
     background-image: url("../imagens/background001.jpg");
-    back
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #img02{
     background-image: url("../imagens/background002.jpg");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 }
 
 @media screen and (max-width: 1000px){
@@ -93,7 +101,7 @@ section p{
     header h1{
         font-size: 4rem;  
     }
-}
+}  
 
 footer{
     background-color: black;
