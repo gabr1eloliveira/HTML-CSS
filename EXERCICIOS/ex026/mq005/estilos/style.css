@@ -21,13 +21,29 @@ header h1{
     text-align: center;
 }
 
-menu{
+#burguer{
     display: block;
+    padding: 10px;
+    color: white;
+    background-color: #252525;
+    text-align: center;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+menu{
+    display: none;
 }
 
 menu ul{
     list-style-type: none;
 }
+
+
 
 menu a{
     display: block;
@@ -37,6 +53,7 @@ menu a{
     background-color: #464545;
     color: white;
     border-top: 2px solid #333;
+    border-radius: 5px;
 }
 
 menu a:hover{
