@@ -14,17 +14,57 @@ body{
 }
 
 header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     background-color: gray;
     color: white;
     padding: 10px;
 }
 
 header h1{
+    flex: 0 0 200px;
     border: 1px dotted black;
 }
 
 nav{
+    display: flex;
     border: 1px dotted black;
+}
+
+nav a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+@media screen and (max-width: 612px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    header h1 {
+        flex: 0 0 auto;
+    }
+    
+    nav {
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    
 }
 
 main{
