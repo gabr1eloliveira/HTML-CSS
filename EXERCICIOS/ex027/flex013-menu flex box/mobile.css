@@ -9,6 +9,25 @@ header h1{
 
 }
 
-nav a{
+#navbar{
+    display: none;
+}
+
+#navbar a{
     width: 90vw;
+}
+
+
+
+#btn-menu{
+    display: block;
+    background-color: rgb(66, 66, 66);
+    padding: 10px;
+    width: 90vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-menu:hover{
+    background-color: rgb(104, 104, 104);
 }
