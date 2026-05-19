@@ -1,7 +1,9 @@
+let menu = document.getElementById('navbar')
+
 function clickMenu() {
-    if (navbar.style.display == 'flex') {
-        navbar.style.display = 'none'
+    if (menu.style.display == 'none') {
+        menu.style.display ='flex'
     }else{
-       navbar.style.display = 'flex' 
-    } 
+        menu.style.display = 'none'
+    }
 }
